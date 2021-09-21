@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recipe app</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ikonlar -->
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="mobile_container">
+        <header>
+            <input type="text" id="search_term">
+            <button id="search">
+                <i class="fas fa-search"></i>
+            </button>
+        </header>
+        <div class="fav_container">
+            <h3>Favorite Meals</h3>
+            <ul class="fav_meals" id="fav_meals"></ul>
+        </div>
+        <div class="meals" id="meals"></div>
+    </div>
+    <div class="popup_container hidden" id="meal_popup">
+        <div class="popup">
+            <button class="close_popup" id="close_popup">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="meal_info" id="meal_info"><div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
